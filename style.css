@@ -1,3 +1,41 @@
 * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
 body { font-family: 'Montserrat', sans-serif; line-height: 1.6; color: var(--preto); background: var(--branco); }
 a { color: var(--preto); text-decoration: none; }
+
+header {
+    max-width: 1852px;
+    margin: auto;
+    padding: 25px 34px;
+
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Playfair Display';
+    color: var(--preto);
+    line-height: 25px;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.github {
+    font-family: 'Montserrat';
+    color: var(--preto);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 72px;
+
+    font-family: 'Montserrat';
+    color: var(--preto);
+    font-size: 18px;
+    font-weight: 500;
+}
