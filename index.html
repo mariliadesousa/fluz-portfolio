@@ -17,25 +17,29 @@
         </nav>
     </header>
     <main>
-        <section>
-            <header>
+        <section id="inicio" class="section">
+            <div class="hero-text">
                 <h1>A luz é a emoção em cada fotografia.</h1>
                 <h2>Fernanda Luz</h2>
-            </header>
-            <button>Contato</button>
+            </div>
+            <a href="#contato" class="btn">Contrate</a>
         </section>
 
-        <section>
-            <header>
-                <button>Paisagens</button>
-                <button>Retratos</button>
-                <button>Comidas</button>
-            </header>
+        <section id="portfolio" class="section">
+            <div class="category-buttons">
+                <button data-category="paisagem" class="active">Paisagens</button>
+                <button data-category="retrato">Retratos</button>
+                <button data-category="comida">Comidas</button>
+            </div>
+            <div class="gallery-conteiner">
+                <div class="galerry-slider" id="galerry-slider">
+                    <!-- Fotos carregadas dinamicamente -->
+                </div>
+            </div>
 
-            <!-- As fotos sejam injetadas via JS -->
         </section>
 
-        <section>
+        <section id="sobre" class="section">
             <div>
                 <h2>Fernanda Luz</h2>
                 <p>Sou fotógrafa há mais de 8 anos, especializada em transformar momentos especiais em lembranças eternas.
@@ -49,35 +53,15 @@
             </picture>
         </section>
 
-        <section>
-            <div>
-                <h2>Entre em contato</h2>
-            </div>
-
+        <section id="contato" class="section">
+            <h2>Entre em contato</h2>
             <form>
-                <fieldset>
-                    <div>
-                        <label for="nome">Nome</label>
-                        <input type="text" name="nome" id="nome" required>
-                    </div>
-                    <div>
-                        <label for="sobrenome">Sobrenome</label>
-                        <input type="text" name="sobrenome" id="sobrenome" required>
-                    </div>
-                </fieldset>
-
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-
-                <div>
-                    <label>Digite uma mensagem:</label>
-                    <textarea name="msg" id="msg" rows="6"></textarea>
-                </div>
+                <input type="text" name="nome" placeholder="Nome" required>
+                <input type="text" name="sobrenome" placeholder="Sobrenome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="mensagem" placeholder="Digite aqui uma mensagem..."></textarea>
+                <button type="submit">Enviar</button>
             </form>
-
-            <button type="submit">Enviar</button>
         </section>
     </main>
     <footer>
