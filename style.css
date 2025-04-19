@@ -134,24 +134,7 @@ h2#subtitle {
 }
 
 .category-buttons button.active, .category-buttons button:hover {
-    background: var(--branco);
-    color: var(--preto);
+    background: var(--preto);
+    color: var(--branco);
 }
 
-.gallery-conteiner {
-    overflow: hidden;
-    width: 100%;
-    max-width: 1000px;
-    margin: auto;
-    height: 400px;
-}
-
-.gallery-slider {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.gallery-image {
-    min-height: 100%;
-    object-fit: cover;
-}
