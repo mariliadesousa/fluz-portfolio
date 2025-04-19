@@ -1,2 +1,2 @@
 # fluz-portfolio
- Portfólio minimalista e responsivo para a fotógrafa Fernanda Luz, com galeria e formulário de contato.
+ Portfólio minimalista para a fotógrafa Fernanda Luz, com galeria e formulário de contato.
