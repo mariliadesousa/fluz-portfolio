@@ -229,3 +229,70 @@ h2#subtitle {
     height: 600px;
     object-fit: cover;
 }
+
+/* CONTATO */
+
+#contato {
+    margin-top: 55px;
+    background: url(images/bg-20.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--branco);
+    backdrop-filter: brigthnes(90%);
+    flex-direction: column;
+}
+
+#contato h2 {
+    font-family: "Playfair Display";
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+    margin: 0;
+    
+}
+
+input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--branco);
+    color: var(--inox);
+    font-size: 16px;
+    resize: none;
+    font-family: 'Montserrat';
+    box-shadow: 0px 320px 90px 0px rgba(0, 0, 0, 0.00), 0px 205px 82px 0px rgba(0, 0, 0, 0.01), 0px 115px 69px 0px rgba(0, 0, 0, 0.05), 0px 51px 51px 0px rgba(0, 0, 0, 0.09), 0px 13px 28px 0px rgba(0, 0, 0, 0.10);
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: var(--inox);
+    color: var(--branco);
+    border: none;
+    margin-left: 200px;
+    width: 80px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    border-radius: 25px;
+    font-family: 'Montserrat';
+    box-shadow: 0px 320px 90px 0px rgba(0, 0, 0, 0.00), 0px 205px 82px 0px rgba(0, 0, 0, 0.01), 0px 115px 69px 0px rgba(0, 0, 0, 0.05), 0px 51px 51px 0px rgba(0, 0, 0, 0.09), 0px 13px 28px 0px rgba(0, 0, 0, 0.10);
+}
+
+button:hover {
+    background-color: var(--chumbo);
+}
