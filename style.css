@@ -296,3 +296,29 @@ button {
 button:hover {
     background-color: var(--chumbo);
 }
+
+/* FOOTER */
+
+footer {
+    background-color: var(--chumbo);
+    color: var(--branco);
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+    flex-wrap: wrap;
+}
+
+.footer-left a {
+    color: var(--branco);
+    margin: 0 10px;
+}
+
+.footer-right a {
+    margin: 0 35px;
+}
+
+.footer-center {
+    color: var(--branco);
+}
