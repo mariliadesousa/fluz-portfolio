@@ -26,6 +26,14 @@ nav {
     font-weight: 500;
 }
 
+nav a:hover {
+    color: var(--inox);
+}
+
+.github:hover {
+    color: var(--inox);
+}
+
 .logo {
     font-family: 'Playfair Display';
     color: var(--preto);
@@ -108,21 +116,20 @@ h2#subtitle {
     align-items: center;
     text-align: center;
     justify-content: center;
-    position: relative;
     margin: 50px 0;
 }
 
-.category-buttons button {
-    flex-direction: column;
-
-    margin: 0 10px;
-    padding: 8px 25px;
+.category-buttons button {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 20px;
+    padding: 8px 60px;
     border: none;
     background-color: var(--preto);
     color: var(--branco);
-    border-radius: 25px;
-    cursor: pointer;
-    transition: 0.2s;
+    border-radius: 20px;
 
     font-family: 'Montserrat';
     font-weight: 600;
@@ -133,7 +140,7 @@ h2#subtitle {
     0px 62px 25px 0px rgba(0, 0, 0, 0.01), 0px 97px 27px 0px rgba(0, 0, 0, 0);
 }
 
-.category-buttons button.active, .category-buttons button:hover {
+.category-buttons button:hover {
     background: var(--preto);
     color: var(--branco);
 }
@@ -317,6 +324,11 @@ footer {
 
 .footer-right a {
     margin: 0 35px;
+}
+
+.footer-left a:hover,
+.footer-right a:hover {
+    color: var(--inox);
 }
 
 .footer-center {
